@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
-</AnchorPane>
 
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="76.0" layoutY="54.0" prefHeight="157.0" prefWidth="81.0">
+         <children>
+            <Label prefHeight="21.0" prefWidth="49.0" text="Program:" />
+            <Label prefHeight="30.0" prefWidth="42.0" text="Degree:" />
+            <Label prefHeight="21.0" prefWidth="34.0" text="Major:" />
+            <Label prefHeight="31.0" prefWidth="26.0" text="GPA:" />
+            <Label prefHeight="21.0" prefWidth="60.0" text="Major GPA:" />
+            <Label prefHeight="27.0" prefWidth="46.0" text="Campus:" />
+         </children>
+      </VBox>
+      <VBox layoutX="144.0" layoutY="54.0" prefHeight="157.0" prefWidth="250.0">
+         <children>
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+         </children>
+      </VBox>
+      <VBox layoutX="456.0" layoutY="62.0" prefHeight="103.0" prefWidth="87.0">
+         <children>
+            <Label text="Enrolled:" />
+            <Label prefHeight="25.0" prefWidth="73.0" text="Results as of:" />
+         </children>
+      </VBox>
+      <VBox layoutX="558.0" layoutY="54.0" prefHeight="103.0" prefWidth="100.0">
+         <children>
+            <TextField />
+            <TextField prefHeight="24.0" prefWidth="100.0" />
+         </children>
+      </VBox>
+      <Label layoutX="80.0" layoutY="242.0" text="Required Courses Taken" />
+   </children>
+</Pane>
