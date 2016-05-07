@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="723.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SainController">
+   <children>
+      <VBox layoutX="76.0" layoutY="54.0" prefHeight="157.0" prefWidth="81.0">
+         <children>
+            <Label prefHeight="21.0" prefWidth="49.0" text="Program:" />
+            <Label prefHeight="30.0" prefWidth="42.0" text="Degree:" />
+            <Label prefHeight="21.0" prefWidth="34.0" text="Major:" />
+            <Label prefHeight="31.0" prefWidth="26.0" text="GPA:" />
+            <Label prefHeight="21.0" prefWidth="60.0" text="Major GPA:" />
+            <Label prefHeight="27.0" prefWidth="46.0" text="Campus:" />
+         </children>
+      </VBox>
+      <VBox layoutX="144.0" layoutY="54.0" prefHeight="157.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="programTXT" />
+            <TextField fx:id="degreeTXT" />
+            <TextField fx:id="majorTXT" />
+            <TextField fx:id="gpaTXT" />
+            <TextField fx:id="majorGpaTXT" />
+            <TextField fx:id="campusTXT" />
+         </children>
+      </VBox>
+      <VBox layoutX="424.0" layoutY="159.0" prefHeight="54.0" prefWidth="87.0">
+         <children>
+            <Label prefHeight="28.0" prefWidth="46.0" text="Enrolled:" />
+            <Label prefHeight="25.0" prefWidth="73.0" text="Results as of:" />
+         </children>
+      </VBox>
+      <VBox layoutX="503.0" layoutY="161.0" prefHeight="48.0" prefWidth="100.0">
+         <children>
+            <TextField fx:id="enrolledTXT" />
+            <TextField fx:id="resultsAsOfTXT" prefHeight="24.0" prefWidth="100.0" />
+         </children>
+      </VBox>
+      <Label layoutX="53.0" layoutY="242.0" text="Required Courses Taken" />
+      <Label layoutX="278.0" layoutY="242.0" text="Other Courses Taken" />
+      <Label layoutX="503.0" layoutY="242.0" text="Withdrawn / Failed" />
+      <Label layoutX="723.0" layoutY="242.0" text="Currently Taking" />
+      <TextArea fx:id="reqCoursesTXT" layoutX="17.0" layoutY="272.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="otherCoursesTXT" layoutX="233.0" layoutY="272.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="withdrawCoursesTXT" layoutX="453.0" layoutY="272.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="currentCoursesTXT" layoutX="666.0" layoutY="272.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="77.0" layoutY="537.0" text="Minimum GPA:" />
+      <Label layoutX="36.0" layoutY="574.0" text="Total Credits Required:" />
+      <Label layoutX="53.0" layoutY="605.0" text="Total Credits Taken:" />
+      <Label layoutX="499.0" layoutY="487.0" text="Courses Needed" />
+      <TextArea fx:id="coursesNeededTXT" layoutX="269.0" layoutY="513.0" prefHeight="166.0" prefWidth="567.0" />
+      <TextField fx:id="totalCreditsRequiredTXT" layoutX="168.0" layoutY="570.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="minGPATXT" layoutX="168.0" layoutY="533.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="totalCreditsTakenTXT" layoutX="168.0" layoutY="601.0" prefHeight="25.0" prefWidth="87.0" />
+   </children>
+</Pane>
